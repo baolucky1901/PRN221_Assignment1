@@ -1,0 +1,11 @@
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\PRN221_SE1503_NgoChiBao.csproj.AssemblyReference.cache
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\MainWindowMember.g.cs
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\WindowHistory.g.cs
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\WindowLogin.g.cs
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\WindowMembers.g.cs
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\WindowOrders.g.cs
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\WindowProducts.g.cs
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\App.g.cs
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\PRN221_SE1503_NgoChiBao_MarkupCompile.cache
+D:\PRN221\Assignment1\PRN221_SE1503_NgoChiBao\SalesWPFApp\obj\Debug\net5.0-windows\PRN221_SE1503_NgoChiBao_MarkupCompile.lref

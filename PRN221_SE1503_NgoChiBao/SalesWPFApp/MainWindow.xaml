@@ -1,0 +1,72 @@
+﻿<Window x:Class="SalesWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesWPFApp"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Title="WindowSaleManagement" Height="600" Width="800">
+    <Grid Background="#FB6090">
+        <Grid Margin="19,186,711,328">
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/Avatar1.jpg"/>
+            </Grid.Background>
+
+        </Grid>
+        <Grid Margin="0,0,555,-17">
+            <Label x:Name="lbTitle" Foreground="#F7D6D0" FontWeight="Bold"
+               FontSize="60" Content="NCBEE" FontFamily="times new roman"
+               HorizontalAlignment="Left" VerticalAlignment="Top" 
+               Margin="10,40,0,0"/>
+            <Label x:Name="lbName" Foreground="#F7D6D0" FontWeight="Bold"
+                    FontSize="30" Content="Chi Bao" FontFamily="times new roman"
+                    HorizontalAlignment="Left" VerticalAlignment="Top" 
+                    Margin="88,177,0,0" Height="39"/>
+            <Label x:Name="lbTitle_Role" Foreground="#F7D6D0" FontWeight="Bold"
+                    FontSize="20" Content="Staff" FontFamily="times new roman"
+                    HorizontalAlignment="Left" VerticalAlignment="Top" 
+                    Margin="93,216,0,0" Height="29"/>
+            <Button Name="btnLogout" Content="Log Out" FontSize="18"  
+                    Background="#F7D6D0" Foreground="#FB6090" FontFamily="times new roman"
+                    HorizontalAlignment="Left" 
+                    Width="110" Click="btnLogout_Click" Margin="63,439,0,108" />
+            <Button x:Name="btnHomePage" Content="Home Page" FontSize="18" 
+                Background="#F7D6D0" Foreground="#FB6090" FontFamily="times new roman"
+                HorizontalAlignment="Left" 
+                Width="195" Click="btnHomePage_Click" Margin="32,292,0,243"/>
+
+        </Grid>
+        <Grid Background="#F7D6D0" Margin="250,30,30,30">
+            <Button Content="Members" FontFamily="times new roman"
+                    Background="#FB6090" Foreground="White"
+                    HorizontalAlignment="Left" Margin="23,271,0,0" VerticalAlignment="Top" 
+                    Height="40" Width="140" Click="Button_Member"/>
+            <Button Content="Orders" FontFamily="times new roman"
+                    Background="#FB6090" Foreground="White"
+                    HorizontalAlignment="Left" Margin="351,271,0,0" VerticalAlignment="Top" 
+                    Height="40" Width="140" Click="Button_Order"/>
+            <Button Content="Products" FontFamily="times new roman"
+                    Background="#FB6090" Foreground="White"
+                    HorizontalAlignment="Center" Margin="0,271,0,0" VerticalAlignment="Top" 
+                    RenderTransformOrigin="-0.121,-0.389" 
+                    Height="40" Width="140" Click="Button_Product"/>
+            <Label x:Name="lbTitle_Welcome" Foreground="#FB6090" FontWeight="Bold"
+                FontSize="30" Content="Welcome back" FontFamily="times new roman"
+                HorizontalAlignment="Left" VerticalAlignment="Top" 
+                Margin="23,10,0,0"/>
+            <Label x:Name="lbTitle_WelcomeName" Foreground="#FB6090" FontWeight="Bold"
+                FontSize="15" Content="Chi Bao Ngo!" FontFamily="times new roman"
+                HorizontalAlignment="Left" VerticalAlignment="Top" 
+                Margin="23,54,0,0"/>
+            <Label x:Name="lbTitle_ChooseServices" Foreground="#FB6090" FontWeight="Bold"
+                FontSize="15" Content="Please choose one of the following services:" FontFamily="times new roman"
+                HorizontalAlignment="Left" VerticalAlignment="Top" 
+                Margin="121,197,0,0" Width="286"/>
+            <Label x:Name="lbTitle_Wish" Foreground="#FB6090" FontWeight="Bold"
+                FontSize="15" Content="Have a nice day !" FontFamily="times new roman"
+                HorizontalAlignment="Center" VerticalAlignment="Top" 
+                Margin="0,432,0,0" Width="118"/>
+        </Grid>
+    </Grid>
+</Window>
